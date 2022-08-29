@@ -1,0 +1,58 @@
+.imgPar
+{
+ height: 100vh;   
+ border: 1px solid rgb(99, 94, 94);
+}
+
+
+.content
+{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+height: 100vh;
+width: 100%;
+
+}
+
+.content h1
+{
+	font-family: 'Mistral',sans-serif;
+	font-size: 150px;
+	color: #ffffff;
+
+}
+
+.content .heading
+{
+	color: #ffffff;
+	font-size: 22px;
+	font-family: 'Elephant',sans-serif;
+
+}
+.content .subHeading
+{
+	
+	font-family: 'Agency FB',sans-serif;
+    margin-top: -10%;
+    margin-left: 25%;
+
+}
+.btnShopNow
+{
+	margin-top: 25%;
+    margin-left: -26%;
+	width: 25%;
+	height: 50px;
+	background-color: transparent;
+	color: #ffffff;
+	border: 2px solid #89d88c;
+
+}
+.btnShopNow:hover
+{
+	background-color: white;
+	color: black;
+	border: 2px solid #fefffe;
+}
