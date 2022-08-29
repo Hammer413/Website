@@ -1,3 +1,5 @@
+import logoPic from './img/hngrr.jpg';
+
 const  Footer = () => {
     return (  
 
@@ -5,7 +7,7 @@ const  Footer = () => {
         <div className="footer">
         <div className="footer-content">
             
-         <img src="img/hngrr.jpg" alt=" " className="logo"/>
+         <img src={logoPic} alt=" " className="logo"/>
          <div className="footer-ul-container">
              <ul category>
                  <li className="category-title">men</li>

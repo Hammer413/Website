@@ -1,3 +1,7 @@
+import femalePic from './img/female.jpg';
+import malePic from './img/malee.jpg';
+import kidPic from './img/kidd.jpg';
+
 const Collection = () => {
     return ( 
 
@@ -5,17 +9,17 @@ const Collection = () => {
     
     <div className="collection-container">
   	<a href="#" className="collection">
-  		<img src="img/female.jpg" alt=""/>
+  		<img src={femalePic} alt=""/>
   		<p className="collection-title">Woman <br/> Aparels</p>
   	</a>
 
   	 	<a href="#" className="collection">
-  		<img src="img/malee.jpg" alt=""/>
+  		<img src={malePic} alt=""/>
   		<p className="collection-title">Men <br/> Aparels</p>
   	</a>
 
   	 	<a href="#" className="collection">
-  		<img src="img/kidd.jpg" alt=""/>
+  		<img src={kidPic} alt=""/>
   		<p className="collection-title">Kids <br/> Aparels</p>
   	</a>
 

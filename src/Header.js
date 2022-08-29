@@ -1,18 +1,22 @@
+import logoPic from './img/hngrr.jpg';
+import userPic from './img/user.png';
+import cartPic from './img/cart.png';
+
 const Header = () => {
     return ( 
         
 <>
 <nav className="navbar">
     	<div className="nav">
-    		<img src="img/hngrr.jpg" className="brand-logo" alt=""/>
+    		<img src={logoPic} className="brand-logo" alt=""/>
     		<div className="nav-items">
     			<div className="search">
     				<input type="text" className="search-box" placeholder="search brand, caps, hats, trousers, shirts..."/>
     				<button className="search-btn">search</button>
     			</div>
 
-    			<a href="#"><img src="img/user.png" alt=""/></a>
-    			<a href="#"><img src="img/cart.png" alt=""/></a>
+    			<a href="#"><img src={userPic} alt=""/></a>
+    			<a href="#"><img src={cartPic} alt=""/></a>
     		</div>
     	</div>
         <ul className="links-container">
