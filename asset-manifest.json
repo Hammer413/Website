@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.81cc6cd7.css",
+    "main.js": "/Website/static/js/main.d09182e8.js",
+    "static/media/imgg.png": "/Website/static/media/imgg.7a34e01f2a99649a14f1.png",
+    "static/media/bad2.jpg": "/Website/static/media/bad2.80824721e497468706e4.jpg",
+    "static/media/bad5.jpg": "/Website/static/media/bad5.77e360e0420b94333b6e.jpg",
+    "static/media/taylor1.jpg": "/Website/static/media/taylor1.e86dedb78f8389d350b6.jpg",
+    "static/media/kidd.jpg": "/Website/static/media/kidd.dbdda3f394f1bf12f673.jpg",
+    "static/media/sqoman3.jpg": "/Website/static/media/sqoman3.e7a257e758f381b17813.jpg",
+    "static/media/female.jpg": "/Website/static/media/female.d99b2fd5a5f56b4615c9.jpg",
+    "static/media/lazy1.jpg": "/Website/static/media/lazy1.229bbd0f57942cc824ab.jpg",
+    "static/media/hngrr.jpg": "/Website/static/media/hngrr.94fd8265814f85503198.jpg",
+    "static/media/sqoman2.jpg": "/Website/static/media/sqoman2.c5b6e84117e6f0ae74ec.jpg",
+    "static/media/lazy15.jpg": "/Website/static/media/lazy15.d2e551a583e29ab059d6.jpg",
+    "static/media/taylor3.jpg": "/Website/static/media/taylor3.f37a05bfb7b3b4f2eb63.jpg",
+    "static/media/malee.jpg": "/Website/static/media/malee.1412278f8e92dff7cc07.jpg",
+    "static/media/user.png": "/Website/static/media/user.9c54d5ddfb764a663584.png",
+    "static/media/arrHead.png": "/Website/static/media/arrHead.be87702bf3419dd5b31b.png",
+    "static/media/cart.png": "/Website/static/media/cart.11737f4653140ed3d91d.png",
+    "index.html": "/Website/index.html",
+    "main.81cc6cd7.css.map": "/Website/static/css/main.81cc6cd7.css.map",
+    "main.d09182e8.js.map": "/Website/static/js/main.d09182e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81cc6cd7.css",
+    "static/js/main.d09182e8.js"
+  ]
+}
