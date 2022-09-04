@@ -13,7 +13,6 @@ import imgBad1 from './img/bad/bad2.jpg';
 import imgSqoman1 from './img/sqoman/sqoman3.jpg';
 import imgtaylor1 from './img/tailor/taylor1.jpg';
 
-
 const ProductOne = () => {
     return ( 
 
@@ -22,8 +21,8 @@ const ProductOne = () => {
   <section className="product">
   	
     <h2 className="product-category">best selling</h2>
-    <button className="pre-btn"><img src={movButton} alt="" width="60" height="60" onClick={HorizontalScroll()}/></button>
-    <button className="nxt-btn"><img src={movButton} alt="" width="60" height="60" onClick={HorizontalScroll()}/></button>
+    <button className="pre-btn" id="pre-btn"><img src={movButton} alt="" width="60" height="60" onClick={HorizontalScroll()}/></button>
+    <button className="nxt-btn" id="nxt-btn"><img src={movButton} alt="" width="60" height="60" onClick={HorizontalScroll()}/></button>
     <div className="product-container">
 
     	<div className="product-card">
@@ -140,7 +139,11 @@ const ProductOne = () => {
 
      );
 }
- 
+
+export default ProductOne;
+
+
+//Javascript for scrolling Image
 const { productContainers, nxtBtn, preBtn } = HorizontalScroll();
 
 productContainers.forEach((item, i)=>{
@@ -154,11 +157,5 @@ productContainers.forEach((item, i)=>{
 	preBtn[i].addEventListener('click',()=>{
 		item.scrollLeft -=containerWidth;
 
-
-		
 	})
 })
-
-
-export default ProductOne;
-
