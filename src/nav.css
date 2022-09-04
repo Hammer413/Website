@@ -9,12 +9,13 @@
 
 .navbar
 {
-	position: sticky;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	background:#f5f5f5;
-	z-index:9;
+	z-index:1000;
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 .nav
@@ -22,6 +23,7 @@
 	padding: 10px 10vw;
 	display: flex;
 	justify-content: space-between;
+	
 
 }
 .brand-logo
@@ -96,6 +98,7 @@ color: #708090;
 	justify-content: center;
 	list-style: none;
 	border-top: 1px solid #d1d1d1;
+	background-color: rgb(42, 44, 44);
 
 }
 
@@ -105,7 +108,7 @@ color: #708090;
 	padding: 0 10px;
 	margin: 0 5px;
 	text-decoration: none;
-	color: #45484b;
+	color: #ffffff;
 	opacity: 0.5;
 	transition: .5s;
 
@@ -131,7 +134,7 @@ color: #708090;
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #708090;
+  color: #ffffff;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -142,14 +145,14 @@ color: #708090;
   position: absolute;
   left: 0;
   padding: 50px;
-  background-color: #f5f5f5;
+  background-color: rgb(42, 44, 44);
   width: 100%;
   z-index: 1;
   margin-top: 5px;
 }
 
 .subnav-content a {
-  color: black;
+  color: rgb(255, 249, 249);
   text-decoration: none;
   margin-left: 15%;
 

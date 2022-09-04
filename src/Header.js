@@ -2,11 +2,12 @@ import logoPic from './img/hngrr.jpg';
 import userPic from './img/user.png';
 import cartPic from './img/cart.png';
 
+
 const Header = () => {
     return ( 
         
 <>
-<nav className="navbar">
+<nav className="navbar" id="navbar">
     	<div className="nav">
     		<img src={logoPic} className="brand-logo" alt=""/>
     		<div className="nav-items">
@@ -40,4 +41,17 @@ const Header = () => {
     );
 }
 
+
 export default Header;
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100%";
+  }
+  prevScrollpos = currentScrollPos;
+}
